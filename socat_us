@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #IPv4 forward
-/usr/bin/socat TCP4-LISTEN:55555,fork TCP4:23.166.24.111:55555 &
-/usr/bin/socat UDP4-LISTEN:55555,fork UDP4:23.166.24.111:55555 &
+/usr/bin/socat TCP4-LISTEN:55557,fork TCP4:23.166.24.111:55555 &
+/usr/bin/socat UDP4-LISTEN:55557,fork UDP4:23.166.24.111:55555 &
 
 
 
