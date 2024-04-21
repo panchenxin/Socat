@@ -3,8 +3,8 @@
 #IPv4 forward
 /usr/bin/socat TCP4-LISTEN:22233,fork TCP4:45.8.186.92:55555 &
 /usr/bin/socat UDP4-LISTEN:22233,fork UDP4:45.8.186.92:55555 &
-/usr/bin/socat TCP4-LISTEN:13341,fork TCP4:191.96.242.130:44444 &
-/usr/bin/socat UDP4-LISTEN:13341,fork UDP4:191.96.242.130:44444 &
+/usr/bin/socat TCP4-LISTEN:26941,fork TCP4:45.8.186.92:26941 &
+/usr/bin/socat UDP4-LISTEN:26941,fork UDP4:45.8.186.92:26941 &
 
 
 #IPv6 forward
