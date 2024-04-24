@@ -5,7 +5,7 @@
 /usr/bin/socat TCP4-LISTEN:18365,fork TCP4:45.78.17.118:18365 &
 /usr/bin/socat TCP4-LISTEN:26941,fork TCP4:45.8.186.92:26941 &
 /usr/bin/socat UDP4-LISTEN:26941,fork UDP4:45.8.186.92:26941 &
-
+ 
 
 
 
